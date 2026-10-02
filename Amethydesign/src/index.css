@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Azeret+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-mono: 'Azeret Mono', monospace;
+  --font-serif: 'Newsreader', serif;
+  --color-canvas: #f4f4f1;
+  --color-ink: #17171a;
+  --color-mute: #707075;
+  --color-sel: #4f5dff;
+  --color-sky: #c9d3ff;
+  --color-pink: #ff5ca8;
+  --color-lime: #c6f24e;
+  --color-line: #dcdcd6;
+  --animate-float: float 9s ease-in-out infinite;
+  @keyframes float { 0%,100% { transform: translate(0,0) } 33% { transform: translate(40px,-24px) } 66% { transform: translate(-20px,18px) } }
+}
+
+html { scroll-behavior: smooth; scrollbar-width: none; }
+body { background: var(--color-canvas); color: var(--color-ink); font-family: var(--font-sans); }
+::selection { background: var(--color-sel); color: white; }
+.dots { background-image: radial-gradient(#cfcfc8 1px, transparent 1px); background-size: 22px 22px; }
