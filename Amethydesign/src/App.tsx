@@ -330,7 +330,7 @@ function Home() {
               href="#contact"
               className="rounded-lg bg-sel px-3 py-1.5 font-medium text-white transition hover:bg-ink"
             >
-              Share ↗
+              Contacts ↗
             </a>
             <button
               type="button"
