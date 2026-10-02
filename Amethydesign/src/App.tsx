@@ -246,7 +246,7 @@ const process = [
   ],
   [
     "Prototype",
-    "Wireframes to hi-fi in Figma; coded prototypes in React or FlutterFlow when realism matters.",
+    "Wireframes to hi-fi in Figma.",
     "figma",
   ],
   [
