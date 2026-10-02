@@ -270,6 +270,14 @@ const caseStudies: Record<string, () => React.ReactElement> = {
   "#/barkarquitetos": Barka,
 }
 
+const navLinks = [
+  ["work", "Work"],
+  ["process", "Process"],
+  ["toolkit", "Toolkit"],
+  ["cv", "CV"],
+  ["system", "System"],
+] as const
+
 export default function App() {
   const [hash, setHash] = useState(location.hash)
   useEffect(() => {
@@ -288,6 +296,7 @@ export default function App() {
 function Home() {
   const [filter, setFilter] = useState<typeof filters[number]>("All")
   const [step, setStep] = useState(0)
+  const [menu, setMenu] = useState(false)
   const shown = projects.filter(
     (p) => filter === "All" || p.cats.includes(filter),
   )
@@ -308,13 +317,7 @@ function Home() {
             </span>
           </a>
           <nav className="flex items-center gap-1 text-sm">
-            {[
-              ["work", "Work"],
-              ["process", "Process"],
-              ["toolkit", "Toolkit"],
-              ["cv", "CV"],
-              ["system", "System"],
-            ].map(([id, l]) => (
+            {navLinks.map(([id, l]) => (
               <a
                 key={id}
                 href={`#${id}`}
@@ -327,10 +330,40 @@ function Home() {
               href="#contact"
               className="rounded-lg bg-sel px-3 py-1.5 font-medium text-white transition hover:bg-ink"
             >
-              Contact ↗
+              Share ↗
             </a>
+            <button
+              type="button"
+              onClick={() => setMenu((m) => !m)}
+              aria-expanded={menu}
+              aria-controls="mobile-menu"
+              aria-label={menu ? "Close menu" : "Open menu"}
+              className="grid h-8 w-8 place-items-center rounded-lg text-ink transition hover:bg-canvas md:hidden"
+            >
+              <span className="relative block h-3 w-4">
+                <span className={`absolute left-0 h-0.5 w-4 rounded bg-current transition ${menu ? "top-1.5 rotate-45" : "top-0"}`} />
+                <span className={`absolute left-0 top-1.5 h-0.5 w-4 rounded bg-current transition ${menu ? "opacity-0" : ""}`} />
+                <span className={`absolute left-0 h-0.5 w-4 rounded bg-current transition ${menu ? "top-1.5 -rotate-45" : "top-3"}`} />
+              </span>
+            </button>
           </nav>
         </div>
+        {menu && (
+          <div id="mobile-menu" className="absolute inset-x-3 top-full mt-2 rounded-2xl border border-line bg-white p-2 shadow-xl md:hidden">
+            <Mono className="block px-3 pt-1 pb-2 text-mute">Pages</Mono>
+            {navLinks.map(([id, l], i) => (
+              <a
+                key={id}
+                href={`#${id}`}
+                onClick={() => setMenu(false)}
+                className="flex items-center gap-3 rounded-xl px-3 py-3 text-base font-medium transition hover:bg-sky hover:text-sel"
+              >
+                <span className="font-mono text-[10px] text-mute">{String(i + 1).padStart(2, "0")}</span>
+                {l}
+              </a>
+            ))}
+          </div>
+        )}
       </header>
 
       {/* Hero canvas */}
