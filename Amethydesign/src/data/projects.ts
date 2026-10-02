@@ -76,7 +76,7 @@ export const projects: Project[] = [
     accent: "#4f5dff",
     featured: true,
     image: "fabric-8.png",
-    desktopScreens: ["fabric-9.png", "fabric-17.png", "fabric-16.png", "fabric-15.png", "fabric-14.png", "fabric-13.png", "fabric-11.png", "fabric-10.png", "fabric-12.png", "fabric-8.png", "fabric-7.png", "fabric-6.png", "fabric-5.png", "fabric-4.png", "fabric-3.png", "fabric-2.png", "fabric-1.png"],
+    desktopScreens: ["fabric-9.png", "fabric-16.png", "fabric-15.png", "fabric-14.png", "fabric-13.png", "fabric-11.png", "fabric-10.png", "fabric-12.png", "fabric-8.png", "fabric-7.png", "fabric-6.png", "fabric-5.png", "fabric-4.png", "fabric-3.png", "fabric-2.png", "fabric-1.png"],
     wireframe: "fabric-wire-1.png",
     desktopWireframes: ["fabric-wire-1.png", "fabric-wire-2.png", "fabric-wire-3.png"],
     desc: "An AI-powered creative platform for textile designers, combining trend analysis, sales insights, visual search and generative AI in one consistent product.",
