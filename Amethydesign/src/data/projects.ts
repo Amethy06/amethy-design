@@ -113,7 +113,7 @@ export const projects: Project[] = [
     cats: ["UX/UI", "Dashboards"],
     year: "2025  — 2026",
     accent: "#16a37a",
-    desc: "Two data dashboards built on one shared design system — consistent components, tokens and patterns, adapted to different users and data.",
+    desc: "Two data dashboards built on one shared design system, consistent components, tokens and patterns, adapted to different users and data.",
     details: [
       ["Role", "UX/UI Designer"],
       ["Tools", "Figma"],

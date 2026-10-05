@@ -278,7 +278,7 @@ export default function FabricFinder() {
           {/* 2. Context */}
           <Block id="context" n="02" label="Context" title="An R&D project for the textile and fashion industry">
             <p className="max-w-[62ch] text-lg leading-relaxed text-ink/75">
-              Fabric Finder was developed within a research and development project exploring how digital tools — and AI in particular — could support textile designers in their day-to-day creative work, from spotting trends to building collections.
+              Fabric Finder was developed within a research and development project exploring how digital tools, and AI in particular, could support textile designers in their day-to-day creative work, from spotting trends to building collections.
             </p>
           </Block>
 
@@ -286,7 +286,7 @@ export default function FabricFinder() {
           <Block id="challenge" n="03" label="The challenge" title="Many kinds of information, one coherent experience">
             <div className="grid gap-6 md:grid-cols-2">
               <p className="text-lg leading-relaxed text-ink/75">
-                The platform brought together very different types of information and workflows — from social trends and customer data to image search, generative AI and personal references.
+                The platform brought together very different types of information and workflows, from social trends and customer data to image search, generative AI and personal references.
               </p>
               <blockquote className="rounded-2xl border-l-4 border-sel bg-white p-6 text-xl font-medium leading-snug tracking-[-0.01em]">
                 One of the main design challenges was creating a consistent experience across these different areas while keeping each workflow clear and easy to explore.
@@ -312,7 +312,7 @@ export default function FabricFinder() {
           {/* 5. Workflows overview */}
           <Block id="workflows" n="05" label="Designing for different workflows" title="Four modules, one product">
             <p className="max-w-[62ch] text-lg leading-relaxed text-ink/75">
-              Each module answers a different question in the designer's process — but they share the same navigation, patterns and visual language.
+              Each module answers a different question in the designer's process, but they share the same navigation, patterns and visual language.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
               {[

@@ -402,9 +402,9 @@ function Home() {
           <div className="mt-20 grid gap-10 md:grid-cols-[1fr_auto] md:items-end">
             <div className="relative max-w-xl">
               <p className="text-xl leading-relaxed text-ink/80">
-                UX/UI Designer in Portugal. I turn dense data — supply chains,
-                dashboards, product passports — into interfaces people actually
-                understand, and I code enough to prototype them for real.
+                UX/UI Designer in Portugal. I turn dense data (supply chains,
+                dashboards, product passports) into interfaces people actually
+                understand.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a

@@ -98,7 +98,7 @@ export default function DPP() {
           Making a garment’s journey <span className="font-serif font-normal italic text-sel">easy to read</span>
         </h1>
         <p className="mt-6 max-w-[58ch] text-lg leading-relaxed text-ink/75">
-          Redesigning CITEVE’s Digital Product Passport — the app that shows a textile product’s traceability, composition, certifications and environmental impact — for mobile and desktop.
+          Redesigning CITEVE’s Digital Product Passport, the app that shows a textile product’s traceability, composition, certifications and environmental impact, for mobile and desktop.
         </p>
         <div className="mt-6 flex flex-wrap gap-2">
           {["UX Research", "UX/UI Design", "Usability testing", "Sustainability"].map((t) => (
@@ -153,7 +153,7 @@ export default function DPP() {
         <div ref={main} className="min-w-0">
           <Block id="context" n="02" label="Context" title="Traceability for the textile industry">
             <p className={p}>
-              The Digital Product Passport (DPP) gives every textile product a digital record — where it was made, what it’s made of, its certifications and its environmental footprint. It was developed at CITEVE, within the be@t Textile Bioeconomy project, as part of the industry’s twin transition: digital and sustainable.
+              The Digital Product Passport (DPP) gives every textile product a digital record, where it was made, what it’s made of, its certifications and its environmental footprint. It was developed at CITEVE, within the be@t Textile Bioeconomy project, as part of the industry’s twin transition: digital and sustainable.
             </p>
             <p className={`${p} mt-4`}>
               This redesign was also my Master’s project in Multimedia Technology at UTAD.
@@ -221,7 +221,7 @@ export default function DPP() {
 
           <Block id="personas" n="06" label="Personas" title="From conscious buyers to curious shoppers">
             <p className={p}>
-              Four personas covered the main types of users — from conscious consumers to everyday ones — and each shaped specific features.
+              Four personas covered the main types of users, from conscious consumers to everyday ones, and each shaped specific features.
             </p>
             <div className="mt-8 grid gap-4 md:grid-cols-2">
               {personas.map(([file, name, type, who, needs]) => (
@@ -244,7 +244,7 @@ export default function DPP() {
 
           <Block id="process" n="07" label="Process" title="Sketch, mid-fidelity, high-fidelity">
             <p className={p}>
-              I started with paper sketches to define the structure, moved to mid-fidelity to add icons, type and spacing, and finished with interactive high-fidelity prototypes — detailed enough that no piece of information lost its weight.
+              I started with paper sketches to define the structure, moved to mid-fidelity to add icons, type and spacing, and finished with interactive high-fidelity prototypes, detailed enough that no piece of information lost its weight.
             </p>
             <div className="mt-10 grid items-end gap-6 md:grid-cols-[1.3fr_0.7fr_1fr]">
               <Frame file="dpp-sketches.png" name="01 · Initial sketches" onOpen={open} />
@@ -264,7 +264,7 @@ export default function DPP() {
               </div>
               <div>
                 <Frame file="dpp-journey.png" name="Product journey — map" onOpen={open} />
-                <p className="mt-3 text-sm leading-relaxed text-ink/70">A map turns the value chain into countries, activities and distance at a glance — and expands into the full journey.</p>
+                <p className="mt-3 text-sm leading-relaxed text-ink/70">A map turns the value chain into countries, activities and distance at a glance and expands into the full journey.</p>
                 <Frame file="dpp-trending.png" name="Product carousel — score badges" onOpen={open} className="mt-6" />
                 <p className="mt-3 text-sm leading-relaxed text-ink/70">The score became a clear A–E badge in the app’s own palette, instead of a generic red-to-green bar.</p>
               </div>
@@ -274,7 +274,7 @@ export default function DPP() {
                 <Mono className="text-sel">◇ Inside the components</Mono>
                 <p className="mt-3 font-semibold">Fully interactive filters</p>
                 <p className="mt-2 leading-relaxed text-ink/70">
-                  The score range selector and the type selector were built with every state as a variant, connected with drag and click interactions — so filters behave in the prototype exactly as they would in the product.
+                  The score range selector and the type selector were built with every state as a variant, connected with drag and click interactions, so filters behave in the prototype exactly as they would in the product.
                 </p>
               </div>
               <Frame file="dpp-score.png" name="ScoreSelector — on drag" onOpen={open} />
@@ -304,7 +304,7 @@ export default function DPP() {
 
           <Block id="testing" n="10" label="Usability testing" title="Tested with 18 people at CITEVE">
             <p className={p}>
-              I ran task-based tests on Maze with 18 CITEVE staff — 8 on mobile and 10 on desktop — measuring success rate, time, drop-offs and misclicks per task.
+              I ran task-based tests on Maze with 18 CITEVE staff (8 on mobile and 10 on desktop) measuring success rate, time, drop-offs and misclicks per task.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line md:grid-cols-4">
               {[
@@ -345,7 +345,7 @@ export default function DPP() {
           <Block id="reflection" n="12" label="Reflection" title="What this project taught me">
             <div className="grid gap-8 md:grid-cols-2">
               <p className="text-lg leading-relaxed text-ink/75">
-                The DPP showed me how UX and UI can bring clarity to an industry that’s still going digital. The hardest part was balancing complete, technical information with a simple interface — and keeping it working and appealing on every device.
+                The DPP showed me how UX and UI can bring clarity to an industry that’s still going digital. The hardest part was balancing complete, technical information with a simple interface and keeping it working and appealing on every device.
               </p>
               <div className="rounded-2xl bg-ink p-6 text-white">
                 <Mono className="text-lime">Key takeaway</Mono>

@@ -164,7 +164,7 @@ export default function Dashboards() {
 
           <Block id="role" n="04" label="My role" title="Interface design, from first screen to final modules">
             <p className={p}>
-              I designed the user interface in Figma for both products, working alongside the data science and development teams as the models matured — and adapting the structure after each round of validation with industry partners.
+              I designed the user interface in Figma for both products, working alongside the data science and development teams as the models matured and adapting the structure after each round of validation with industry partners.
             </p>
             <ul className="mt-8 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
               {["Shared design system", "Information architecture", "Data visualisation", "AI assistant (chatbot)"].map((r, i) => (
@@ -178,7 +178,7 @@ export default function Dashboards() {
 
           <Block id="system" n="05" label="Shared design system" title="Built once, adapted twice">
             <p className={p}>
-              Both products share the same components, tokens and patterns — parameter forms, suggestion cards, confidence labels, charts and tables — so each new module could be designed faster and stay consistent.
+              Both products share the same components, tokens and patterns, parameter forms, suggestion cards, confidence labels, charts and tables, so each new module could be designed faster and stay consistent.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
               {[
@@ -201,7 +201,7 @@ export default function Dashboards() {
 
           <Block id="enerwise" n="06" label="EnerWise" title="Smart energy monitoring and optimisation">
             <p className={p}>
-              EnerWise helps finishing plants predict gas and electricity consumption, recommended speed and duration for an operation — and find the conditions that use the least energy.
+              EnerWise helps finishing plants predict gas and electricity consumption, recommended speed and duration for an operation and find the conditions that use the least energy.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
               {[
@@ -256,7 +256,7 @@ export default function Dashboards() {
 
           <Block id="chatbot" n="06.2" label="AI assistant" title="Ask the data in plain language">
             <p className={p}>
-              A chatbot lets anyone query the operations database in natural language — no SQL needed. I designed it in two complementary modes that share the same elements: clear chat, model settings, message field, send and a loading state.
+              A chatbot lets anyone query the operations database in natural language. I designed it in two complementary modes that share the same elements: clear chat, model settings, message field, send and a loading state.
             </p>
             <div className="mt-10 grid items-start gap-6 md:grid-cols-[minmax(0,0.6fr)_minmax(0,1.4fr)]">
               <Frame file="enerwise-chat-float.png" name="Floating window — from any page" onOpen={open} />
