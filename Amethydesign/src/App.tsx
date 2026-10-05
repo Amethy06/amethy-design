@@ -390,7 +390,7 @@ function Home() {
               className="inline-block"
             >
               <h1 className="text-[clamp(2.8rem,8vw,7rem)] font-semibold leading-[0.95] tracking-[-0.045em]">
-                Hi, I’m Beatriz — <br />I design{" "}
+                Hi, I’m Beatriz. <br />I design{" "}
                 <span className="font-serif font-normal italic text-sel">
                   clarity
                 </span>{" "}
